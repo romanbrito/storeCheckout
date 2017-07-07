@@ -1,5 +1,5 @@
 Product.allow({
-  'insert':function(userId,doc){
-    return userId;
-  }
+    'insert':function(userId,doc){
+        return userId;
+    }
 });

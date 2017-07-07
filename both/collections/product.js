@@ -1,7 +1,6 @@
 Product = new Mongo.Collection('product');
 Product.helpers({
-  category:function () {
-    Category.findOne(this.categoryId)
-  }
+    category:function(){
+        return Category.findOne(this.categoryId);
+    }
 });
-//hook with category

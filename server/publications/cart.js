@@ -1,3 +1,3 @@
-Meteor.publish('cart',function () {
-  return Cart.find({});
+Meteor.publish('cart',function(userid){
+    return Cart.find({user:userid});
 });
