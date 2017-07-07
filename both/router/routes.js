@@ -13,6 +13,11 @@ FlowRouter.route('/signin',{
     FlowLayout.render('layout',{sidebar:'sidebar',main:'signin',cart:'cart'});
   }
 });
+FlowRouter.route('/profile',{
+  action:function () {
+    FlowLayout.render('layout',{sidebar:'',main:'profile',cart:''});
+  }
+});
 FlowRouter.route('/signout',{
   action:function () {
     Meteor.logout(function (err) {
