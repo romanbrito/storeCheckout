@@ -15,7 +15,6 @@ Template.admin.events({
         product.description = tmpl.find('#description').value;
         product.price = tmpl.find('#price').value;
         product.rating = tmpl.find('#rating').value;
-        console.log(product);
         Meteor.call('Product.insert',product,function(){
             $('#productForm')[0].reset();
             $('#productname').focus();

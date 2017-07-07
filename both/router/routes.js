@@ -54,6 +54,7 @@ FlowRouter.route('/checkout',{
 FlowRouter.route('/category/:categoryName',{
     subscriptions:function(params){
         this.register('catlist',Meteor.subscribe('category'));
+        this.register('catproducts',Meteor.subscribe('products'));
     },
     triggersEnter:function(params){
         console.log("ENTER",params);
