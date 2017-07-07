@@ -34,6 +34,7 @@ cfs:worker@0.1.4
 check@1.2.5
 coffeescript@1.0.17
 cosmos:browserify@0.5.1
+dburles:collection-helpers@1.1.0
 ddp@1.2.5
 ddp-client@1.3.4
 ddp-common@1.2.8
@@ -62,6 +63,7 @@ launch-screen@1.1.1
 livedata@1.0.18
 localstorage@1.1.0
 logging@1.1.17
+matb33:collection-hooks@0.8.4
 meteor@1.6.1
 meteor-base@1.1.0
 meteorhacks:flow-layout@1.4.2

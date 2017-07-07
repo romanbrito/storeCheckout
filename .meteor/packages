@@ -25,3 +25,5 @@ fortawesome:fontawesome
 alanning:roles
 cfs:standard-packages
 cfs:gridfs
+matb33:collection-hooks
+dburles:collection-helpers
