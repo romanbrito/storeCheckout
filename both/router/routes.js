@@ -8,6 +8,16 @@ FlowRouter.route('/register',{
     FlowLayout.render('layout',{sidebar:'sidebar',main:'register',cart:'cart'});
   }
 });
+// roles for admin users see startup.js
+FlowRouter.route('/admin',{
+  action:function () {
+    if (Roles.userIsInRole(Meteor.userId(), 'admin')) {
+    FlowLayout.render('layout',{sidebar:'',main:'admin',cart:''});
+    } else {
+      FlowLayout.render('layout',{sidebar:'',main:'unauthorized',cart:''});
+    }
+  }
+});
 FlowRouter.route('/signin',{
   action:function () {
     FlowLayout.render('layout',{sidebar:'sidebar',main:'signin',cart:'cart'});

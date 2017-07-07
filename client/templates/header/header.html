@@ -8,10 +8,10 @@
 
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="/">Home</a>
-                    </li>
+                    <li class="active"><a href="/">Home</a></li>
+                    {{#if isInRole 'admin'}}
                     <li><a href="/admin">Admin</a></li>
+                    {{/if}}
                     <li><a href="/profile">My Profile</a></li>
                     <li><a href="/cart"> <i class="fa fa-shopping-cart"></i> Cart</a></li>
                 </ul>
