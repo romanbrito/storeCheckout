@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3530e28-481a-4be7-86e1-fa9ff1e97579" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/almost-paradise-16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/apple-crisp-16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/carrot-cake-16.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/fileuploads.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/router/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/helpers/stringHelpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/quietearth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/stylesheets/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/admin/admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/admin/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/admin/unauthorized.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/cart/cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/category/category.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/category/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/checkout/checkout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/header/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/home/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/layout/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/product/product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/profile/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/profile/profile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/register/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/register/register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/sidebar/sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/sidebar/sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/sidebar/sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/signin/signin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/signin/signin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/methods/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/methods/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/methods/startup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/permissions/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/permissions/permissions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/permissions/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/publications/cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/publications/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/publications/product.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods/product.js" afterPath="$PROJECT_DIR$/server/methods/product.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publications/product.js" afterPath="$PROJECT_DIR$/server/publications/product.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,38 +22,18 @@
       <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/publications/product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/both/router/routes.js">
+      <file leaf-file-name="product.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/methods/product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/templates/product/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/publications/category.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -137,7 +79,6 @@
         <option value="$PROJECT_DIR$/client/templates/sidebar/sidebar.js" />
         <option value="$PROJECT_DIR$/server/permissions/product.js" />
         <option value="$PROJECT_DIR$/server/methods/category.js" />
-        <option value="$PROJECT_DIR$/server/methods/product.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 4/server/methods/category.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 4/server/methods/product.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 4/server/publications/product.js" />
@@ -156,8 +97,10 @@
         <option value="$PROJECT_DIR$/client/templates/product/product.html" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/both/router/routes.js" />
         <option value="$PROJECT_DIR$/both/router/routes.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/publications/product.js" />
         <option value="$PROJECT_DIR$/server/publications/product.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/publications/product.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/methods/product.js" />
+        <option value="$PROJECT_DIR$/server/methods/product.js" />
       </list>
     </option>
   </component>
@@ -250,6 +193,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="methods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -269,28 +230,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeCheckout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeCheckout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,12 +379,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499371892187</updated>
       <workItem from="1499371896354" duration="31083000" />
-      <workItem from="1499438768280" duration="5940000" />
+      <workItem from="1499438768280" duration="7276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37023000" />
+    <option name="totallyTimeSpent" value="38359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -487,14 +426,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 3/client/templates/profile/profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -769,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/methods/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/client/templates/category/category.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -809,14 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/publications/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/both/router/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -841,22 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/publications/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publications/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/both/router/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -869,6 +768,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publications/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/publications/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publications/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/methods/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/methods/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
       </provider>

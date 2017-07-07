@@ -1,5 +1,5 @@
 Meteor.startup(function () {
-    Product._ensureIndex({ "categoryId": 1});
+  Product._ensureIndex({ "categoryId": 1});
 });
 Meteor.methods({
     'Product.insert':function(product){
