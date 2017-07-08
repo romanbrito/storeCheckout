@@ -2,53 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3530e28-481a-4be7-86e1-fa9ff1e97579" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/fileuploads.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/collections/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/both/router/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/helpers/stringHelpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/quietearth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/stylesheets/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/admin/admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/admin/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/admin/unauthorized.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/cart/cart.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/cart/cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/cart/cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/category/category.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/category/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/category/product.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/checkout/checkout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/header/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/home/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/home/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/layout/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/product/product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/profile/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/profile/profile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/register/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/register/register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/reusables/panel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/sidebar/sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/sidebar/sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/sidebar/sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/signin/signin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/signin/signin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/almost-paradise-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-crisp-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/carrot-cake-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/methods/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/methods/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/methods/startup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/permissions/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/permissions/permissions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/permissions/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/publications/cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/publications/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/publications/product.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/reusables/panel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/storeCheckout.iml" afterPath="$PROJECT_DIR$/.idea/storeCheckout.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/cart/cart.js" afterPath="$PROJECT_DIR$/client/templates/cart/cart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/category/category.html" afterPath="$PROJECT_DIR$/client/templates/category/category.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/category/category.js" afterPath="$PROJECT_DIR$/client/templates/category/category.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/checkout/checkout.html" afterPath="$PROJECT_DIR$/client/templates/checkout/checkout.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,31 +28,71 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
+          <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="268">
+                  <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/templates/category/category.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/templates/product/product.html">
+          <file leaf-file-name="checkout.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/checkout/checkout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/templates/product/product.js">
+          <file leaf-file-name="panel.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/templates/reusables/panel.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="panel.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/reusables/panel.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/category/category.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -99,11 +102,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="product.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server/methods/product.js">
+          <file leaf-file-name="panel.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/templates/reusables/panel.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -116,6 +119,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>addCategory</find>
+      <find>hide</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/templates/signin/signin.html" />
         <option value="$PROJECT_DIR$/client/templates/register/register.html" />
         <option value="$PROJECT_DIR$/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/client/templates/signin/signin.js" />
@@ -165,16 +168,17 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/publications/product.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/methods/product.js" />
         <option value="$PROJECT_DIR$/server/methods/product.js" />
-        <option value="$PROJECT_DIR$/client/templates/cart/cart.js" />
         <option value="$PROJECT_DIR$/client/templates/cart/cart.css" />
-        <option value="$PROJECT_DIR$/client/templates/category/category.html" />
-        <option value="$PROJECT_DIR$/client/templates/checkout/checkout.html" />
         <option value="$PROJECT_DIR$/client/templates/reusables/panel.html" />
         <option value="$PROJECT_DIR$/client/helpers/stringHelpers.js" />
         <option value="$PROJECT_DIR$/client/templates/product/product.html" />
         <option value="$PROJECT_DIR$/client/templates/product/product.css" />
         <option value="$PROJECT_DIR$/client/templates/cart/cart.html" />
+        <option value="$PROJECT_DIR$/client/templates/cart/cart.js" />
         <option value="$PROJECT_DIR$/client/templates/category/category.js" />
+        <option value="$PROJECT_DIR$/client/templates/category/category.html" />
+        <option value="$PROJECT_DIR$/client/templates/checkout/checkout.html" />
+        <option value="$PROJECT_DIR$/client/templates/reusables/panel.js" />
       </list>
     </option>
   </component>
@@ -238,6 +242,10 @@
               <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -250,10 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="methods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,6 +290,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reusables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,7 +355,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="category" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="both" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="router" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeCheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="both" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,7 +596,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42454000" />
+    <option name="totallyTimeSpent" value="46266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -514,14 +656,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/both/collections/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/permissions/cart.js" />
     <entry file="file://$PROJECT_DIR$/client/templates/sidebar/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -694,26 +828,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/publications/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 5/server/methods/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/both/router/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,30 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/layout/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/checkout/checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -789,26 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/helpers/stringHelpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/product/product.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/reusables/panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -821,33 +899,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/apple-crisp-16.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/category/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/quietearth.html">
@@ -858,18 +912,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/category/category.html">
+    <entry file="file://$PROJECT_DIR$/client/helpers/stringHelpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/product/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="272">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -882,10 +928,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/layout/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/router/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="87" lean-forward="false" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/product/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publications/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/product/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/category/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/cart/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/category/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/checkout/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/reusables/panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_Meteor_Reactive_Apps_JavaScript.zip/Ex_Files_Meteor_Reactive_Apps_JavaScript/Section 7/client/templates/reusables/panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/reusables/panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>

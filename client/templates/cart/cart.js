@@ -4,3 +4,8 @@ Template.cart.helpers({
         return [item];
     }
 });
+Template.cart.events({
+  'click .checkOutBtn':function (evt,tmpl) {
+    Session.set('isCheckingOut',true)
+  }
+});
