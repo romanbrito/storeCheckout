@@ -24,13 +24,13 @@ Template.admin.events({
       $('#productname').focus();
     })
   },
-  // 'click .updateProduct':function(evt,tmpl){
-  //   evt.preventDefault();
-  //   var price = tmpl.find('#price').value;
-  //   var name = tmpl.find('#productname').value;
-  //   var id = tmpl.find('#productId').value;
-  //   Meteor.call('Product.update',id,price,name);
-  // },
+  'click .updateProduct':function(evt,tmpl){
+    evt.preventDefault();
+    var price = tmpl.find('#price').value;
+    var name = tmpl.find('#productname').value;
+    var id = tmpl.find('#productId').value;
+    Meteor.call('Product.update',id,price,name);
+  },
   'click .removeProduct':function(evt,tmpl){
     Meteor.call('Product.remove',this._id);
   },
