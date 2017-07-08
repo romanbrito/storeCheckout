@@ -14,8 +14,8 @@ Meteor.methods({
         if(! Meteor.userId()){
             throw new Meteor.Error("Not Authorized");
         }
-        check(qty,Number);
-        check(product,String);
+        //check(qty,Number);
+        //check(product,String);
         var exists = Cart.findOne({userId:Meteor.userId,product:product});
         if(exists){
            return Cart.update(exists,{$inc:{qty:qty}});
