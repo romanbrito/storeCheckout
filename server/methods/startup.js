@@ -10,7 +10,7 @@ Meteor.startup(function(){
     });
     var users = Meteor.users.find().fetch();
     _.each(users,function(userData){
-        if(userData.emails[0].address === 'george@home.com'){
+        if(userData.emails[0].address === 'george@home.com'){ //add to admin role
             Roles.addUsersToRoles(userData,['admin']);
         }
     })
