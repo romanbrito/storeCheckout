@@ -1,4 +1,3 @@
-Session.setDefault('isCheckingOut',false); //application state so modal will be hidden
 Template.category.helpers({
     categoryName:function(){
         return FlowRouter.getParam('categoryName');
@@ -6,11 +5,7 @@ Template.category.helpers({
     products:function(){
         var categoryId = Category.findOne({name:FlowRouter.getParam('categoryName')})._id;
         return Product.find({categoryId:categoryId});
-    },
-  isCheckingOut:function () { //application state
-    return Session.equals('isCheckingOut',true);
-
-  }
+    }
 });
 
 Template.categoryAdmin.events({

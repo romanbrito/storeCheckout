@@ -1,11 +1,14 @@
 Template.cart.helpers({
     cartitems:function(){
-        var item = {description:'<b>Great</b> Scent',img:'/images/apple-crisp-16.jpg',product:'Apple Cinnamon',qty:2,price:12.00}
-        return [item];
+        return Cart.find();
     }
 });
 Template.cart.events({
-  'click .checkOutBtn':function (evt,tmpl) {
-    Session.set('isCheckingOut',true)
-  }
+    'click .checkOutBtn':function(){
+        Session.set('isCheckingOut',true);
+    },
+    'mouseup #delFromCart':function(evt,tmpl){
+        console.log(this._id);
+        Meteor.call('Cart.remove',this._id);
+    }
 });

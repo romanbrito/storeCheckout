@@ -3,6 +3,8 @@ FlowRouter.route(['/','/home'],{
     subscriptions:function(){
       this.register('categorieslist',Meteor.subscribe('category'));
       this.register('productsList',Meteor.subscribe('products'));
+        this.register('usercart',Meteor.subscribe('usercart',Meteor.userId()));
+
     },
     action:function(){
         console.log("Running Action to render templates into layouts.");
@@ -56,6 +58,7 @@ FlowRouter.route('/category/:categoryName',{
     subscriptions:function(params){
         this.register('catlist',Meteor.subscribe('category'));
         this.register('catproducts',Meteor.subscribe('products'));
+        this.register('usercart',Meteor.subscribe('usercart',Meteor.userId()));
     },
     triggersEnter:function(params){
         console.log("ENTER",params);
