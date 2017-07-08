@@ -28,3 +28,4 @@ cfs:gridfs
 matb33:collection-hooks
 dburles:collection-helpers
 session
+aldeed:collection2

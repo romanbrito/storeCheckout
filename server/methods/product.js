@@ -14,8 +14,8 @@ Meteor.methods({
     if(! Meteor.userId()){
       throw new Meteor.Error("Not Authorized");
     }
-    // check(qty,Number);
-    // check(product,String);
+    check(qty,Number);
+    check(product,String);
     return Cart.insert({userId:Meteor.userId(),product:product,qty:qty});
   },
   //update
