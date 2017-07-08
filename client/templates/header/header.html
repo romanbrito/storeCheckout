@@ -3,7 +3,7 @@
     <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="/admin" class="navbar-brand bigger">Quiet Earth</a>
+                <a href="/" class="navbar-brand bigger">Texadelphia</a>
 
 
             </div>
@@ -16,7 +16,9 @@
                     {{#if isInRole 'admin'}}
                     <li><a href="/admin">Admin</a></li>
                     {{/if}}
+    {{#if currentUser}}
                     <li><a href="/profile">My Profile</a></li>
+    {{/if}}
                 </ul>
                 <div class="navbar-right plain">
                     {{#if currentUser}}

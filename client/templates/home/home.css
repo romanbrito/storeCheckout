@@ -1,0 +1,22 @@
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    color: #fff;
+    background: #000 url("images/Screen1.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+
+
+    position:absolute;
+    top:0;left:0;
+    z-index:1;
+}
+.jumbotron {
+    position:relative;padding:50px;
+    color: #ff1608;
+}
+.jumbotron .container {z-index:2;
+    position:relative;
+    z-index:2;
+}
