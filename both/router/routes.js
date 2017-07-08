@@ -1,3 +1,4 @@
+
 FlowRouter.route(['/','/home'],{
     subscriptions:function(){
       this.register('categorieslist',Meteor.subscribe('category'));

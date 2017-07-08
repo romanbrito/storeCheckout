@@ -1,5 +1,5 @@
 Meteor.startup(function () {
-  Product._ensureIndex({ "categoryId": 1});
+    Product._ensureIndex({ "categoryId": 1});
 });
 Meteor.methods({
     'Product.insert':function(product){
@@ -7,5 +7,8 @@ Meteor.methods({
     },
     'Product.remove':function(id){
         return Product.remove({_id:id});
+    },
+    'Product.AddtoCart':function(product,qty){
+        return Cart.insert({userId:Meteor.userId(),product:product,qty:qty});
     }
 });

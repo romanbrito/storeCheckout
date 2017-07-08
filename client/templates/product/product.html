@@ -8,7 +8,7 @@
           <div class="caption">
               <div class="row">
                   <div class="col-md-6 col-xs-6">
-                      <h4>{{name}}</h4>
+                      <h6>{{truncate name 8}}</h6>
                   </div>
                   <div class="col-md-6 col-xs-6 price">
                       <h4><label>${{price}}</label></h4>
@@ -17,11 +17,11 @@
               <div class="row">
                   <div class="col-md-6">
                       <div class="rating">
-                          <i class="price-text-color fa fa-star"></i>
-                          <i class="price-text-color fa fa-star"></i>
-                          <i class="price-text-color fa fa-star"></i>
-                          <i class="price-text-color fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i class="{{ratings 1 rating}} fa fa-star"></i>
+                          <i class="{{ratings 2 rating}} fa fa-star"></i>
+                          <i class="{{ratings 3 rating}} fa fa-star"></i>
+                          <i class="{{ratings 4 rating}} fa fa-star"></i>
+                          <i class="{{ratings 5 rating}} fa fa-star"></i>
                       </div>
                   </div>
                   <div class="col-md-6">

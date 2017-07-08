@@ -1,5 +1,7 @@
 <template name="category">
-    {{>checkout}}
+    {{#if isCheckingOut}}
+        {{>checkout}}
+    {{/if}}
     <h1>{{categoryName}}</h1>
         {{#each products}}
             {{>product}}

@@ -1,5 +1,5 @@
 <template name="checkout">
-        {{#panel header="Checkout"}}
-            <strong>Checkout Dialog</strong>
-        {{/panel}}
+    {{#if isCheckingOut}}
+        {{#panel header="Checkout"}}{{/panel}}
+    {{/if}}
 </template>
