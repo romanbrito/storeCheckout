@@ -18,7 +18,7 @@ ecmascript@0.8.0              # Enable ECMAScript2015+ syntax in app code
 shell-server@0.2.3            # Server-side component of the `meteor shell` command
 
 meteorhacks:flow-layout
-meteorhacks:flow-router
+kadira:flow-router
 mrt:bootstrap-3
 accounts-password
 fortawesome:fontawesome
@@ -29,3 +29,4 @@ matb33:collection-hooks
 dburles:collection-helpers
 session
 aldeed:collection2
+mrt:paypal

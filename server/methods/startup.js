@@ -10,8 +10,13 @@ Meteor.startup(function(){
     });
     var users = Meteor.users.find().fetch();
     _.each(users,function(userData){
-        if(userData.emails[0].address === 'george@home.com'){ //add to admin role
+        if(userData.emails[0].address === 'george@home.com'){
+
             Roles.addUsersToRoles(userData,['admin']);
         }
-    })
+    });
+    //var extdata = Meteor.http.call('GET', 'http://localhost:8080/Data/material/list');
+    //_.each(extdata.data.rows,function(mat,i){
+    //    Meteor.call('addCategory',{name:mat.description});
+    //})
 });

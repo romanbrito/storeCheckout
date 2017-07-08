@@ -1,22 +1,21 @@
 <template name="cart">
     {{#if currentUser}}
     <h4>My Cart</h4>
-    <ul class="list-unstyled col-lg-8">
+    <ul class="list-unstyled  col-lg-8">
     {{#each cartitems}}
-        <li>
+        <li class="col-sm-12">
             <span class="item">
                 <span class="item-left">
-                  <img src="{{image}}" alt="Image"/>
                     <span class="item-info">
                         <span>
                             <label class="badge">{{qty}}</label>
                         </span>
-                        <span>{{truncate cartproduct.name 9}}</span>
+                        <span>{{truncate cartproduct.name 25}}</span>
                         <p>{{{description}}}</p>
                     </span>
                 </span>
                 <span class="item-right">
-                  <h4>{{currency cartproduct.price}} &nbsp;
+                  <h4 class="subtotal">{{subtotal cartproduct.price qty}} &nbsp;
                     <button id="delFromCart" class="btn btn-xs btn-danger pull-right ">x</button>
                   </h4>
                 </span>
@@ -24,6 +23,15 @@
         </li>
 
     {{/each}}
+        <li>
+            <span class="item-left">
+                <h4>Total:</h4>
+            </span>
+            <span class="item-right">
+                  <h4>{{currency total}} &nbsp;
+                  </h4>
+                </span>
+        </li>
     </ul>
     {{else}}
         <span>Please Log In...</span>

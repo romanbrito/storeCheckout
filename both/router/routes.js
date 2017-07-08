@@ -4,10 +4,8 @@ FlowRouter.route(['/','/home'],{
       this.register('categorieslist',Meteor.subscribe('category'));
       this.register('productsList',Meteor.subscribe('products'));
         this.register('usercart',Meteor.subscribe('usercart',Meteor.userId()));
-
     },
     action:function(){
-        console.log("Running Action to render templates into layouts.");
         FlowLayout.render('layout',{sidebar:'sidebar',main:'home',cart:'cart'});
     }
 });

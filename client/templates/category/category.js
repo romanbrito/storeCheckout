@@ -3,11 +3,11 @@ Template.category.helpers({
         return FlowRouter.getParam('categoryName');
     },
     products:function(){
-        var categoryId = Category.findOne({name:FlowRouter.getParam('categoryName')})._id;
-        return Product.find({categoryId:categoryId});
+        var category = Category.findOne({name:FlowRouter.getParam('categoryName')});
+        if(category && category._id)
+        return Product.find({categoryId:category._id});
     }
 });
-
 Template.categoryAdmin.events({
     'click .addCategory':function(event,template){
        var category = {};
